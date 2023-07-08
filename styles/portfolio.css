@@ -66,9 +66,9 @@ nav a {
 
 .header {
     background: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -153,8 +153,36 @@ main section {
 }
 
 /* resume section style */
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
 .resume-colum-title {
     color: #474747;
     font-size: 30px;
     font-weight: 700;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-item-description,
+.resume-item-institute {
+    color: #757575;
+}
+.resume-container hr{
+    margin: 20px;
+}
+.resume-item-institute{
+    margin-bottom:20px ;
+    margin-top: 0px ;
+}
+.download-cv{
+    text-align: center;
+    padding-top: 50px;
 }
